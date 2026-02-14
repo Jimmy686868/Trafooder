@@ -1,0 +1,21 @@
+# ShokaX 主题配置
+# 必须配置 statics 否则样式会乱
+statics: https://cdnjs.cloudflare.com/ajax/libs/
+
+# 你的个人信息 (这里改成你的名字了！)
+author: Trafooder
+title: Trafooder's Blog
+
+# 菜单导航
+menu:
+  Home: /
+  Archives: /archives/
+
+# 头像和背景图 (暂时用默认的，等下我教你换成你自己的照片)
+avatar:
+  url: https://cdn.jsdelivr.net/gh/amehime/shoka@master/images/avatar.jpg
+  rounded: true
+  opacity: 1
+
+loader:
+  start: true

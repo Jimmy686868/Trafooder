@@ -1,20 +1,18 @@
-statics: https://cdn.jsdelivr.net/npm/
 author: Trafooder
 title: Trafooder's Blog
 menu:
   Home: /
   Archives: /archives/
 avatar:
-  url: https://cdn.jsdelivr.net/gh/amehime/shoka@master/images/avatar.jpg
+  url: /assets/logo.svg
   rounded: true
   opacity: 1
-image:
-  list:
-    - https://cdn.jsdelivr.net/gh/amehime/shoka@master/images/cover/1.jpg
-    - https://cdn.jsdelivr.net/gh/amehime/shoka@master/images/cover/2.jpg
-    - https://cdn.jsdelivr.net/gh/amehime/shoka@master/images/cover/3.jpg
-    - https://cdn.jsdelivr.net/gh/amehime/shoka@master/images/cover/4.jpg
-    - https://cdn.jsdelivr.net/gh/amehime/shoka@master/images/cover/5.jpg
-    - https://cdn.jsdelivr.net/gh/amehime/shoka@master/images/cover/6.jpg
+image_list:
+  - /assets/404.png
+  - /assets/algolia_logo.svg
+  - /assets/apple-touch-icon.png
+  - /assets/favicon.ico
+  - /assets/logo.svg
+  - /assets/search.png
 loader:
   start: true

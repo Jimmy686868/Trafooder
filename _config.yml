@@ -96,3 +96,27 @@ theme: shokax
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# ShokaX 专用渲染配置 (精简稳妥版)
+markdown:
+  render:
+    html: false
+    xhtmlOut: true
+    breaks: true
+    linkify: true
+    typographer: true
+    quotes: '“”‘’'
+  plugins:
+    - plugin:
+        name: markdown-it-toc-and-anchor
+        enable: true
+        options:
+          tocClassName: "toc"
+          anchorClassName: "anchor"
+    - plugin:
+        name: markdown-it-multimd-table
+        enable: true
+        options:
+          multiline: true
+          rowspan: true
+          headerless: true

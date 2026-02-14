@@ -96,12 +96,3 @@ theme: shokax
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
-
-markdown:
-  render:
-    html: false
-    xhtmlOut: true
-    breaks: true
-    linkify: true
-    typographer: true
-    quotes: "“”‘’"

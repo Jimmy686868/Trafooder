@@ -1,22 +1,13 @@
-# ShokaX 核心配置
 statics: https://cdnjs.cloudflare.com/ajax/libs/
-
-# 个人信息
 author: Trafooder
 title: Trafooder's Blog
-
-# 菜单
 menu:
   Home: /
   Archives: /archives/
-
-# 头像
 avatar:
   url: https://cdn.jsdelivr.net/gh/amehime/shoka@master/images/avatar.jpg
   rounded: true
   opacity: 1
-
-# 关键修复：必须凑够6张图，否则报错！
 image:
   list:
     - https://cdn.jsdelivr.net/gh/amehime/shoka@master/images/cover/1.jpg
@@ -25,6 +16,5 @@ image:
     - https://cdn.jsdelivr.net/gh/amehime/shoka@master/images/cover/4.jpg
     - https://cdn.jsdelivr.net/gh/amehime/shoka@master/images/cover/5.jpg
     - https://cdn.jsdelivr.net/gh/amehime/shoka@master/images/cover/6.jpg
-
 loader:
   start: true

@@ -2,12 +2,13 @@
   "name": "hexo-site",
   "version": "0.0.0",
   "private": true,
-  "scripts": {
-    "build": "hexo generate",
-    "clean": "hexo clean",
-    "deploy": "hexo deploy",
-    "server": "hexo server"
-  },
+"scripts": {
+  "build": "hexo generate",
+  "postinstall": "patch-package",
+  "clean": "hexo clean",
+  "deploy": "hexo deploy",
+  "server": "hexo server"
+},
   "hexo": {
     "version": "7.3.0"
   },
@@ -47,5 +48,9 @@
     "theme-shokax-anime": "^0.0.8",
     "twikoo": "^1.6.44",
     "vue": "^3.5.18"
+  },
+  "devDependencies": {
+    "patch-package": "^8.0.1",
+    "postinstall-postinstall": "^2.1.0"
   }
 }

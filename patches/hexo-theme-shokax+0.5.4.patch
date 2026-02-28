@@ -1,3 +1,16 @@
+diff --git a/node_modules/hexo-theme-shokax/_config.yml b/node_modules/hexo-theme-shokax/_config.yml
+index 3d92543..4172bf1 100644
+--- a/node_modules/hexo-theme-shokax/_config.yml
++++ b/node_modules/hexo-theme-shokax/_config.yml
+@@ -42,7 +42,7 @@ homeConfig:
+ modules:
+   debug: false # 启用调试模式
+   player: true # 启用音乐播放器
+-  fireworks: true # 启用鼠标点击烟花特效
++  fireworks: false # 启用鼠标点击烟花特效
+   visibilityListener: true # 启用可见度监听器，当你不需要页面标题随标签页切换而变化可关闭
+   tabs: true # 启用选项卡扩展支持，如需开启 summary 功能请一并开启
+   quiz: true # 启用文章内问题扩展支持
 diff --git a/node_modules/hexo-theme-shokax/languages/zh-CN.yml b/node_modules/hexo-theme-shokax/languages/zh-CN.yml
 index 93fbbfc..70babe4 100644
 --- a/node_modules/hexo-theme-shokax/languages/zh-CN.yml

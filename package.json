@@ -39,7 +39,7 @@
     "hexo-util": "^3.3.0",
     "instantsearch.js": "^4.79.2",
     "js-yaml": "^4.1.0",
-    "katex": "^0.16.22",
+    "katex": "^0.16.33",
     "markdown-it-multimd-table": "^4.2.3",
     "markdown-it-toc-and-anchor": "^4.2.0",
     "nyx-player": "^0.1.1",
